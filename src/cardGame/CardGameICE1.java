@@ -41,10 +41,10 @@ public class CardGameICE1 {
         int userValue;
         String userSuit;
         
-        System.out.print("Please enter a card value here: ");
+        System.out.print("Please enter a card value here (1-13): ");
         userValue = userin.nextInt();
         
-        System.out.print("Please enter a card suit here: ");
+        System.out.print("Please enter a card suit here (1-4): ");
         userSuit = userstr.nextLine();
         
         boolean inHand;
